@@ -1,0 +1,6 @@
+.ipynb_checkpoints
+utils/__pycache__
+
+/output_data/*/*.npy
+/output_figs/*/*.png
+/output_figs/*/*.svg

@@ -1,0 +1,10 @@
+plotly
+pandas
+scipy
+openpyxl
+pillow
+matplotlib
+ipywidgets==8.0.6 
+kaleido==0.1.0post1
+jupyter
+jupyterlab
