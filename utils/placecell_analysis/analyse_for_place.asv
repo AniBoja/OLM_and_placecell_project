@@ -110,6 +110,7 @@ for c = 1:(size(All_cell_ids,1))
 
     cell_event_amps = cell_data.all_cells.(All_cell_ids(c)).amps;
     event_x_coords = cell_data.all_cells.(All_cell_ids(c)).x_coord;
+    cell_events = cell_data.all_cells.(All_cell_ids(c)).x_coord;
     right_run = cell_data.all_cells.(All_cell_ids(c)).right_run;
     left_run = cell_data.all_cells.(All_cell_ids(c)).left_run;
     
@@ -129,6 +130,7 @@ for c = 1:(size(All_cell_ids,1))
         perturb_mask = logical(perturb_zone_mask.*chance_mask);
     
         % delete events outside track limits
+        cell_events(perturb_mask)=[];
         cell_event_amps(perturb_mask)=[];
         event_x_coords(perturb_mask)=[];
         left_run(perturb_mask)=[];
@@ -157,10 +159,10 @@ for c = 1:(size(All_cell_ids,1))
             cell_data.left_cells.(All_cell_ids(c)).right_run = right_run(logical(left_run));
         end
         
-    end
+        end
            
+    end
 end
-
 
 %loop through both the right and then left traversals of the track
 for runs = 1:size(Traversals,2)
