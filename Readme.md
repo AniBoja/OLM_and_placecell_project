@@ -2,7 +2,7 @@
 
 This repository contains code used to analyse place cell data for the paper Udakis et al 2025
 
-### Python_placecell_analysis
+### [Python_placecell_analysis](python_placecell_analysis)
 This contains the python code in jupyter notebooks used to analyse placecell data
 
 - Example data in the form of rate maps is included in .mat files in the data folder these mice have mCherry expressed in OLM cells and GCaMP6f in CA1 pyramidal neurons.
