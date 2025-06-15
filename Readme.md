@@ -12,7 +12,9 @@ This contains the python code in jupyter notebooks used to analyse placecell dat
 To run the python code for place cell analysis we recommend creating a new python environment as described [here](python_placecell_analysis/env_setup.md)
 
 
-### MATLAB_preprocessing
+---
+
+[### MATLAB_preprocessing](MATLAB_preprocessing)
 
 This set of Live MATLAB files can be used to analyse the place cells.
 Files include:
