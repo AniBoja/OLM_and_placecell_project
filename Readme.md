@@ -14,7 +14,7 @@ To run the python code for place cell analysis we recommend creating a new pytho
 
 ---
 
-[### MATLAB_preprocessing](MATLAB_preprocessing)
+### [MATLAB_preprocessing](MATLAB_preprocessing)
 
 This set of Live MATLAB files can be used to analyse the place cells.
 Files include:
