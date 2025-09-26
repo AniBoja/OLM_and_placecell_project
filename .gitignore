@@ -1,0 +1,9 @@
+.ipynb_checkpoints
+
+python_placecell_analysis/notebooks/utils/__pycache__
+
+python_placecell_analysis/output_data/*/*.npy
+python_placecell_analysis/output_figs/*/*.png
+python_placecell_analysis/output_figs/*/*.svg
+
+olm_venv
